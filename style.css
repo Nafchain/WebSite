@@ -1,0 +1,136 @@
+.cards {
+    display: flex;
+    justify-content: space-around; /* Espacio entre las tarjetas */
+    flex-wrap: wrap; /* Para que las tarjetas se ajusten automáticamente en filas */
+}
+
+.card {
+    width: 18rem;
+    margin: 10px;
+    border: 1px solid #ccc;
+    height: 400px; /* Agregar una altura específica */
+}
+
+.WeAre .text{
+    padding: 2em;
+    font-size: 20px;
+}
+
+.WeAre {
+    text-align: center;
+    margin: 100px 0; /* Espacio superior e inferior */
+    opacity: 0; /* Inicialmente, ocultamos el elemento */
+    transform: translateX(100%); /* Desplazar desde la derecha */
+    transition: opacity 1s, transform 1s; /* Animaciones de transición */
+}
+
+.imagen{
+    max-height: 650px;
+}
+
+.industry {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display: flex;
+    align-items: center;
+}
+
+.industry .text-container {
+    padding-left: 2em;
+    padding-right: 7em;
+    display: flex;
+    flex-direction: column;
+}
+
+.industry p {
+    font-size: 20px; /* Tamaño de letra más grande para el primer párrafo */
+    margin-bottom: 2em; /* Espacio entre los párrafos */
+}
+
+
+.industry img {
+    padding-right: 2em;
+    max-width: 500px; /* Tamaño mediano de la imagen */
+}
+
+.text-container h5{
+    font-size: 30px;
+    margin-bottom: 2em;
+}
+
+.partner {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display: flex;
+    align-items: center;
+    
+}
+
+.partner .text-container {
+    padding-left: 2em;
+    padding-right: 7em;
+    display: flex;
+    flex-direction: column;
+}
+
+.partner p {
+    font-size: 20px; /* Tamaño de letra más grande para el primer párrafo */
+    margin-bottom: 2em; /* Espacio entre los párrafos */
+}
+
+
+.partner img {
+    padding-right: 2em;
+    max-width: 500px; /* Tamaño mediano de la imagen */
+}
+
+.service {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display: flex;
+    align-items: center;
+}
+
+.service .text-container {
+    padding-left: 7em;
+    display: flex;
+    flex-direction: column;
+}
+
+.service p {
+    font-size: 20px; /* Tamaño de letra más grande para el primer párrafo */
+    margin-bottom: 2em; /* Espacio entre los párrafos */
+    padding-right: 2em;
+}
+
+.service img {
+    max-width: 500px; /* Tamaño mediano de la imagen */
+    margin-left: 2em;
+}
+
+.small{
+    margin-top: 2em; 
+    margin-bottom: -2em;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center; /* Alinear los enlaces al centro */
+    margin-top: 4em; /* Ajuste de margen superior según tus necesidades */
+    font-size: 12px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px; /* Ajuste de espacio entre enlaces */
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.logo{
+    margin-left: 1em;
+    max-width: 7em;
+}
